@@ -9,14 +9,17 @@
   <link rel="stylesheet" media="screen and (min-width: 301px) and (max-width: 800px)" href="medium.css">
   <link rel="stylesheet" media="screen and (min-width: 801px)" href="large.css">
   <style>
+    header, body, html {
+      max-width: 1080px;
+      margin: auto;
+    }
+    body {
+      font-family: 'Raleway', sans-serif;
+      color: #2d3c49;
+    }
     html {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-    }
-    header {
-      font-family: 'Raleway', sans-serif;
-      color: #2d3c49;
-      float: right;
     }
     hr {
       border: none;
@@ -24,31 +27,74 @@
       width: 100%;
       color: #7d97ad;
       background-color: #777;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      float: right;
+      width: 100%;
+      background-color: white;
     }
     .name {
       text-align: right;
       font-weight: lighter;
       color: #555;
       margin: .1em;
-      margin-right: 0px;
+      margin-right: 10px;
     }
     .title {
       text-align: right;
       font-weight: bolder;
       margin: .1em;
-      margin-right: 0px;
-      margin-bottom: .7em;
+      margin-right: 16px;
+      margin-bottom: 7px;
+    }
+    .main {
+      margin-top: 95px;
+    }
+    .footer {
+      position: fixed;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #333;
+      width: 100%;
+      max-width: 1080px;
+      margin: 0;
+      padding: 0;
+      bottom: 0;
+  }
+    .footer-item {
+      float: left;
+    }
+    .footer-item a {
+      font-size: 13px;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 7px 16px;
+      text-decoration: none;
+    }
+    .footer-item a:hover {
+      background-color: #111;
     }
   </style>
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1 class="name">MICHAEL NOVAC-YU</h1>
     <h5 class="title">FULL STACK WEB DEVELOPER &middot; DEVOPS</h5>
+    <hr>
   </header>
-  <hr>
   <img class="main" src="main.jpg" alt="Main Image">
+  <footer>
+    <ul class="footer">
+      <li class="footer-item"><a href="#top">TOP</a></li>
+      <li class="footer-item"><a href="#about">ABOUT</a></li>
+      <li class="footer-item"><a href="#portfolio">PORTFOLIO</a></li>
+      <li class="footer-item"><a href="#contact">CONTACT</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
