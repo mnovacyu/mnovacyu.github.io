@@ -6,6 +6,10 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #2d3c49;
 }
+h2 {
+  font-weight: bold;
+  margin: 5px;
+}
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -70,4 +74,20 @@ hr {
   display: block;
   width: 100%;
   margin-top: 120px;
+  margin-bottom: 50px;
+}
+.portfolio-group {
+  padding: 0;
+  margin: 12px 0 0 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-item {
+  margin: 2px;
 }
