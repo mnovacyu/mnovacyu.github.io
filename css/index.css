@@ -76,7 +76,7 @@ hr {
   margin-top: 120px;
   margin-bottom: 50px;
 }
-.portfolio-group {
+.group {
   padding: 0;
   margin: 12px 0 0 0;
   display: -webkit-box;
@@ -87,6 +87,9 @@ hr {
   flex-flow: wrap;
   align-items: center;
   justify-content: center;
+}
+.about-item {
+  max-height: 300px;
 }
 .portfolio-item {
   margin: 2px;
