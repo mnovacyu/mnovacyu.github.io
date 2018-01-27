@@ -90,7 +90,7 @@ hr {
 }
 .group {
   padding: 0;
-  margin: 12px 0 21px 0;
+  margin: 12px 0px 21px 0px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -113,10 +113,7 @@ hr {
   display: grid;
 }
 .portfolio-item {
-  margin: 5px 5px 8px 5px;
   display: list-item;
-  text-align: -webkit-match-parent; 
-  clear: both; 
 }
 .portfolio-pic {
   max-width: 100%;
