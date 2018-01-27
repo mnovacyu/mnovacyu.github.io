@@ -113,7 +113,9 @@ hr {
   display: grid;
 }
 .portfolio-item {
+  margin: 5px 5px 8px 5px;
   display: list-item;
+  clear: both;
 }
 .portfolio-pic {
   max-width: 100%;
