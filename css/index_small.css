@@ -1,3 +1,6 @@
+.portrait {
+  max-height: 350;
+}
 .portfolio-item {
   width: 100%;
   max-width: 100%;

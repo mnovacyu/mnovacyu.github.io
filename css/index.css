@@ -97,5 +97,7 @@ hr {
   margin: 10px;
 }
 .portfolio-item {
-  margin: 2px;
+  border: 2px solid #888;
+  border-radius: 2px;
+  margin: 4px;
 }
