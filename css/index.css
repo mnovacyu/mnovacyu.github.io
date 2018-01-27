@@ -6,9 +6,21 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #2d3c49;
 }
+a {
+  text-decoration: none;
+  color: #666;
+}
 h2 {
   font-weight: bold;
   margin: 5px;
+}
+h3, h4, h5 {
+  font-weight: bold;
+  margin: 3px;
+  text-align: center;
+}
+h6 {
+  margin: 3px;
 }
 html {
   -moz-osx-font-smoothing: grayscale;
@@ -87,6 +99,7 @@ hr {
   flex-flow: wrap;
   align-items: center;
   justify-content: center;
+  list-style-type: none;
 }
 .about-item {
   margin: 10px;
@@ -96,8 +109,17 @@ hr {
   border-radius: 50%;
   margin: 10px;
 }
+.portfolio {
+  display: grid;
+}
 .portfolio-item {
+  margin: 5px 5px 8px 5px;
+  display: list-item;
+  text-align: -webkit-match-parent; 
+  clear: both; 
+}
+.portfolio-pic {
+  max-width: 100%;
   border: 2px solid #888;
   border-radius: 2px;
-  margin: 4px;
 }
