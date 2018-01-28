@@ -126,6 +126,7 @@ hr {
 
 .about-item {
   margin: 10px;
+  max-width: 90%;
 }
 
 .portrait {
