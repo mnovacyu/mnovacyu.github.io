@@ -2,34 +2,50 @@ header, body, html {
   max-width: 1080px;
   margin: auto;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  float: right;
+  width: 100%;
+  background-color: white;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   color: #2d3c49;
 }
+
 footer {
   float: right;
 }
+
 a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
+
 h2 {
   font-weight: bold;
   margin: 5px;
 }
+
 h3, h4, h5 {
   font-weight: bold;
   margin: 3px;
   text-align: center;
 }
+
 h6 {
   margin: 3px;
 }
+
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
 hr {
   border: none;
   height: 2px;
@@ -39,13 +55,7 @@ hr {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.header {
-  position: fixed;
-  top: 0;
-  float: right;
-  width: 100%;
-  background-color: white;
-}
+
 .name {
   text-align: right;
   font-weight: lighter;
@@ -53,6 +63,7 @@ hr {
   margin: .1em;
   margin-right: 10px;
 }
+
 .title {
   text-align: right;
   font-weight: bolder;
@@ -60,6 +71,7 @@ hr {
   margin-right: 16px;
   margin-bottom: 12px;
 }
+
 .menu {
   list-style-type: none;
   overflow: hidden;
@@ -69,9 +81,11 @@ hr {
   margin: 0 0 10px 0;
   padding: 0;
 }
+
 .menu-item {
   float: left;
 }
+
 .menu-item a {
   font-size: 13px;
   display: block;
@@ -80,18 +94,22 @@ hr {
   padding: 7px 16px;
   text-decoration: none;
 }
+
 .menu-item a:hover {
   background-color: #111;
 }
+
 .top-button {
   background-color: #484848;
 }
+
 .main-image {
   display: block;
   width: 100%;
   margin-top: 120px;
   margin-bottom: 50px;
 }
+
 .item-group {
   padding: 0;
   margin: 5px 0px 21px 0px;
@@ -105,34 +123,42 @@ hr {
   justify-content: center;
   list-style-type: none;
 }
+
 .about-item {
   margin: 10px;
 }
+
 .portrait {
   max-height: 300px;
   border-radius: 50%;
   margin: 10px;
 }
+
 .portfolio {
   display: grid;
 }
+
 .portfolio-item {
   margin: 10px 5px 3px 5px;
   display: list-item;
   clear: both;
 }
+
 .github-link {
   text-decoration: none;
   color: #666;
 }
+
 .portfolio-pic {
   max-width: 100%;
   border: 2px solid #888;
   border-radius: 2px;
 }
+
 .contact-info {
   margin-bottom: 60px;
 }
+
 .thin-line {
   height: 1px;
 }

@@ -3,9 +3,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .about-item {
   max-width: 50%;
 }
+
 .portfolio-item {
   width: 31%;
 }
