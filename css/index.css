@@ -131,5 +131,8 @@ hr {
   border-radius: 2px;
 }
 .contact-info {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+}
+.thin-line {
+  height: 1px;
 }
