@@ -26,6 +26,13 @@ a {
   font-weight: bold;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
 h2 {
   font-weight: bold;
   margin: 5px;
@@ -157,7 +164,7 @@ hr {
 }
 
 .contact-info {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .thin-line {
