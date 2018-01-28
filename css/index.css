@@ -33,10 +33,6 @@ a.anchor {
   visibility: hidden;
 }
 
-a.header {
-  font-weight: lighter;
-}
-
 a.email {
   font-weight: bolder;
 }
