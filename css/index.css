@@ -6,9 +6,13 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #2d3c49;
 }
+footer {
+  float: right;
+}
 a {
   text-decoration: none;
-  color: #666;
+  color: black;
+  font-weight: bold;
 }
 h2 {
   font-weight: bold;
@@ -88,9 +92,9 @@ hr {
   margin-top: 120px;
   margin-bottom: 50px;
 }
-.group {
+.item-group {
   padding: 0;
-  margin: 12px 0px 21px 0px;
+  margin: 5px 0px 21px 0px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -113,12 +117,19 @@ hr {
   display: grid;
 }
 .portfolio-item {
-  margin: 5px 5px 8px 5px;
+  margin: 10px 5px 3px 5px;
   display: list-item;
   clear: both;
+}
+.github-link {
+  text-decoration: none;
+  color: #666;
 }
 .portfolio-pic {
   max-width: 100%;
   border: 2px solid #888;
   border-radius: 2px;
+}
+.contact-info {
+  margin-bottom: 50px;
 }
