@@ -66,6 +66,11 @@ hr {
   margin-bottom: 5px;
 }
 
+p {
+  margin-left: 5px;
+  marign-right: 5px;
+}
+
 .logo {
   display: inline-block;
   float: left;
@@ -147,9 +152,9 @@ hr {
   list-style-type: none;
 }
 
-.about-item {
+.about-text {
   margin: 10px;
-  max-width: 90%;
+  max-width: 95%;
 }
 
 .portrait {

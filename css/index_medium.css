@@ -1,3 +1,6 @@
-.about-item, .portfolio-item {
+.about-text {
+  width: 47%;
+}
+.portfolio-item {
   width: 47%;
 }
