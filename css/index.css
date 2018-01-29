@@ -71,6 +71,8 @@ hr {
   float: left;
   width: 10%;
   font-size: 50px;
+  color: white;
+  text-shadow: #dee8f7 0 0 .4em;
   margin: .1em;
 }
 
