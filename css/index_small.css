@@ -3,14 +3,18 @@
 }
 
 .logo {
-  font-size: 40px;
-  margin-top: 4px;
+  font-size: 45px;
+  margin-top: 2px;
 }
 
 .name {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .portfolio-item {
   width: 90%;
+}
+
+.main_image {
+  margin-top: 115px;
 }

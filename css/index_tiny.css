@@ -8,9 +8,17 @@
 }
 
 .name {
-  font-size: 26px;
+  font-size: 22px;
+}
+
+.title {
+  font-size: 12px;
 }
 
 .portfolio-item {
   width: 95%;
+}
+
+.main_image {
+  margin-top: 110px;
 }
