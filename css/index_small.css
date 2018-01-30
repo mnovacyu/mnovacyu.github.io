@@ -1,6 +1,12 @@
+.name-group {
+  height: 50px;
+}
+
 .logo {
   font-size: 40px;
+  margin-top: 4px;
 }
+
 .name {
   font-size: 28px;
 }

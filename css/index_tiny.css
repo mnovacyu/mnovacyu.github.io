@@ -1,6 +1,10 @@
+.name-group {
+  height: 45px;
+}
+
 .logo {
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .name {
