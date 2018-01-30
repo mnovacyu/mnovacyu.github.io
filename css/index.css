@@ -92,7 +92,7 @@ p {
 }
 
 .logo {
-  width: 32%;
+  width: 30%;
   font-size: 50px;
   color: white;
   text-shadow: #dee8f7 0 0 0.4em;
@@ -103,7 +103,7 @@ p {
 
 .name {
   text-align: right;
-  width: 68%;
+  width: 65%;
   font-size: 28px;
   font-weight: lighter;
   color: #555;
@@ -114,7 +114,7 @@ p {
 
 .title {
   text-align: right;
-  width: 68%;
+  width: 65%;
   font-size: 12px;
   font-weight: bolder;
   padding: 0;
