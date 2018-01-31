@@ -79,16 +79,22 @@ p {
 
 /* HEADER */
 .name-group {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0;
-  height: 180px;
+  height: 55px;
   margin: 0 5px 0 5px;
 }
 
 .logo {
-  width: 30%;
+  width: 35%;
   font-size: 50px;
   color: white;
   text-shadow: #dee8f7 0 0 0.4em;
@@ -104,8 +110,8 @@ p {
   font-weight: lighter;
   color: #555;
   padding: 0;
-  margin: 5px 0 0 0;
-  flex: 0 0 0;
+  margin: 0.2em 0 0.2em 0;
+  height: 48%;
 }
 
 .title {
@@ -115,7 +121,7 @@ p {
   font-weight: bolder;
   padding: 0;
   margin: 0;
-  flex: 0 0 0;
+  height: 30%;
 }
 
 .menu {
@@ -161,9 +167,11 @@ p {
 .item-group {
   padding: 0;
   margin: 5px 0 21px 0;
+  -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
+  display: -moz-flex;
   display: -webkit-flex;
   display: flex;
   flex-flow: wrap;
