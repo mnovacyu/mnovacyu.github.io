@@ -125,17 +125,23 @@ p {
 }
 
 .menu {
-  list-style-type: none;
-  overflow: hidden;
+  overflow: visible;
   background: #333;
   width: 100%;
   max-width: 1080px;
   margin: 0 0 10px 0;
   padding: 0;
-}
-
-.menu-item {
-  float: left;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: left;
+  list-style-type: none;
 }
 
 .menu-item a {
