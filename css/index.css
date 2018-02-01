@@ -37,7 +37,7 @@ a {
 a.anchor {
   display: block;
   position: relative;
-  top: -120px;
+  top: -110px;
   visibility: hidden;
 }
 
@@ -189,6 +189,17 @@ p {
   max-height: 300px;
   border-radius: 50%;
   margin: 10px;
+}
+
+/*SKILLS SECTION*/
+.skills-text {
+  list-style-type: none;
+  margin: 0 0 30px 10%;
+  max-width: 95%;
+}
+
+.skill {
+  margin: 20px;
 }
 
 /* PORTFOLIO SECTION */

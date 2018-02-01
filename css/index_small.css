@@ -11,6 +11,10 @@
   font-size: 26px;
 }
 
+.skills-text {
+  margin: 0 0 30px 5px;
+}
+
 .portfolio-item {
   width: 90%;
 }
