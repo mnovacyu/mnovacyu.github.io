@@ -86,11 +86,10 @@ p {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   padding: 0;
   height: 55px;
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
 }
 
 .logo {
@@ -140,7 +139,6 @@ p {
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  justify-content: left;
   list-style-type: none;
 }
 
@@ -209,14 +207,9 @@ p {
 }
 
 /* PORTFOLIO SECTION */
-.portfolio {
-  display: grid;
-}
-
 .portfolio-item {
   margin: 10px 6px 3px 6px;
   display: list-item;
-  clear: both;
 }
 
 .github-link {
