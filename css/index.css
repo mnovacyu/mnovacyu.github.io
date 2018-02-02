@@ -144,7 +144,7 @@ p {
   list-style-type: none;
 }
 
-.menu-item a {
+.menu-item {
   font-size: 13px;
   display: block;
   color: white;
@@ -153,7 +153,7 @@ p {
   text-decoration: none;
 }
 
-.menu-item a:hover {
+.menu-item:hover {
   background: #111;
 }
 
