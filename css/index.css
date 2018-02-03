@@ -196,14 +196,55 @@ p {
 }
 
 /*SKILLS SECTION*/
+.icon {
+  position: relative;
+  top: 0.3em;
+  margin: 2px 10px;
+  padding: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.fa-html5 {
+  color: #c23935;
+}
+
+.fa-python {
+  color: #3abc3e;
+}
+
+.fa-docker {
+  color: #397bbc;
+}
+
+.fa-linux {
+  color: #ff8300;
+}
+
+.fa-database {
+  color: #ff7ab1;
+}
+
+.fa-cloud {
+  color: #59daff;
+}
+
+.fa-bell {
+  color: #ff9442;
+}
+
+.fa-chart-area {
+  color: #9966ff;
+}
+
 .skills-text {
   list-style-type: none;
-  margin: 0 0 30px 10%;
+  margin: 10px 0 30px 10%;
   max-width: 95%;
 }
 
 .skill {
-  margin: 20px;
+  margin: 5px 20px;
 }
 
 /* PORTFOLIO SECTION */
