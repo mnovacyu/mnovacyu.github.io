@@ -15,6 +15,10 @@
   font-size: 12px;
 }
 
+.main-image {
+  margin-top: 110px;
+}
+
 .skill {
   width: 95%;
   margin: 0.7em 4px;
@@ -22,8 +26,4 @@
 
 .portfolio-item {
   width: 95%;
-}
-
-.main_image {
-  margin-top: 110px;
 }
