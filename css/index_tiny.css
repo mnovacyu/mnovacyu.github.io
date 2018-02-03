@@ -15,8 +15,9 @@
   font-size: 12px;
 }
 
-.skills-text {
-  margin: 0 0 30px 10px;
+.skill {
+  width: 95%;
+  margin: 0.7em 4px;
 }
 
 .portfolio-item {
