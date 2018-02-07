@@ -37,7 +37,7 @@ a {
 a.anchor {
   display: block;
   position: relative;
-  top: -110px;
+  top: -4.5em;
   visibility: hidden;
 }
 
