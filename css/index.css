@@ -205,7 +205,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   list-style-type: none;
-  margin: 0.5em 10%;
+  margin: 0.8em 10%;
 }
 
 /* SKILLS ICONS */
@@ -225,7 +225,7 @@ p {
   color: #3abc3e;
 }
 
-.fa-cogs {
+.fa-shield-alt {
   color: #777777;
 }
 
